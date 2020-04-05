@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/create-react-plus/static/css/main.5f361e03.chunk.css",
+    "main.js": "/create-react-plus/static/js/main.df333b87.chunk.js",
+    "main.js.map": "/create-react-plus/static/js/main.df333b87.chunk.js.map",
+    "runtime-main.js": "/create-react-plus/static/js/runtime-main.54b61970.js",
+    "runtime-main.js.map": "/create-react-plus/static/js/runtime-main.54b61970.js.map",
+    "static/js/2.7d4770a8.chunk.js": "/create-react-plus/static/js/2.7d4770a8.chunk.js",
+    "static/js/2.7d4770a8.chunk.js.map": "/create-react-plus/static/js/2.7d4770a8.chunk.js.map",
+    "index.html": "/create-react-plus/index.html",
+    "precache-manifest.1957043b569a87cc5721f1df3b8cdf4f.js": "/create-react-plus/precache-manifest.1957043b569a87cc5721f1df3b8cdf4f.js",
+    "service-worker.js": "/create-react-plus/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/create-react-plus/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.7d4770a8.chunk.js.LICENSE.txt": "/create-react-plus/static/js/2.7d4770a8.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/create-react-plus/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54b61970.js",
+    "static/js/2.7d4770a8.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.df333b87.chunk.js"
+  ]
+}
