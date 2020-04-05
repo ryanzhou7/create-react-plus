@@ -1,3 +1,54 @@
+Create-react-app + 
+Tooling
+Eslint
+Prettier
+Github pages deployment
+
+Packages
+Query string
+Class fields
+Css loader
+
+
+
+Steps
+Git clone this
+
+$rm -rf .git
+
+Create new repository, do not check "Initialize this repository with a README"
+
+We copy the " …or create a new repository on the command line "
+
+git add .
+git commit -m "Add all"
+git push
+
+
+
+VSCode extension setup
+Code -> preferences -> extensions -> search
+ESLint
+Prettier by Esben Peterson
+Npm intellisense
+
+Code -> preferences -> settings -> search
+save -> check Editor: format on save
+prettier -> check Prettier: require Config
+
+
+
+Githubpages setup
+In package.json replace this with your info
+"homepage": "http://{username}.github.io/{repo-name}"
+
+To deploy, use scripts
+npm run deploy
+
+
+
+----------------------------------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,5 +117,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# create-react-plus
-# crispy-octo-spork
