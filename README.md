@@ -11,12 +11,12 @@ Steps
   - \$git init
   - \$git add .
   - git commit -m "Initial Commit"
-  - git remote add origin https://github.com/sophie-tsai/${REPO-NAME}.git - (establishes the link between the local project to the github repo online)
+  - git remote add origin https://github.com/${YOUR-GITHUB-USERNAME}/${REPO-NAME}.git - (establishes the link between the local project to the github repo online)
   - git push -u origin master
 
 Github Pages setup
 In package.json replace this with your info
-"homepage": "http://{username}.github.io/{repo-name}"
+"homepage": "http://${YOUR-GITHUB-USERNAME}.github.io/${REPO-NAME}"
 
 To deploy, use scripts
 npm run deploy
