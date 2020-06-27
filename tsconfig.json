@@ -1,25 +1,23 @@
 {
-  "compilerOptions": {
-    "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react"
-  },
-  "include": [
-    "src"
-  ]
+    "compilerOptions": {
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+
+        "module": "esnext", // specify module code generation - or 'es6's
+        "outDir": "./build/", // path to output directory
+        "sourceMap": true, // allow sourcemap support
+        "strictNullChecks": true, // enable strict null checks as a best practice
+        "jsx": "react", // use typescript to transpile jsx to js
+        "target": "es5", // specify ECMAScript target version
+        "allowJs": true // allow a partial TypeScript and JavaScript codebase
+    },
+    "include": ["src"]
 }
