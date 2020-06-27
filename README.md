@@ -20,3 +20,5 @@ In package.json replace this with your info
 
 To deploy, use scripts
 npm run deploy
+
+See https://github.com/microsoft/TypeScript-React-Conversion-Guide and https://github.com/Microsoft/TypeScript-Handbook/blob/master/pages/tutorials/React.md for more typescript setup
